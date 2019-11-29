@@ -13,3 +13,32 @@ a {
     color: #333;
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.circle {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    font-size: 4em;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.green {
+    background-color: lightgreen;
+}
+
+
+.blue {
+    background-color: #64B5F6;
+  }
+  
+.yellow {
+background-color: #FFB74D;
+}
